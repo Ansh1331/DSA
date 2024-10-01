@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Ansh1331/DSA/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ansh1331/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0078-subsets](https://github.com/Ansh1331/DSA/tree/master/0078-subsets) |
 | [0189-rotate-array](https://github.com/Ansh1331/DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Ansh1331/DSA/tree/master/0283-move-zeroes) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Ansh1331/DSA/tree/master/0078-subsets) |
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 ## Sorting
 |  |
@@ -57,4 +59,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Ansh1331/DSA/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/Ansh1331/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
