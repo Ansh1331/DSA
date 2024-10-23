@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Ansh1331/DSA/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ansh1331/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0037-sudoku-solver](https://github.com/Ansh1331/DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Ansh1331/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Ansh1331/DSA/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Ansh1331/DSA/tree/master/0051-n-queens) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Ansh1331/DSA/tree/master/0001-two-sum) |
+| [0037-sudoku-solver](https://github.com/Ansh1331/DSA/tree/master/0037-sudoku-solver) |
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 ## Two Pointers
 |  |
@@ -69,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Ansh1331/DSA/tree/master/0022-generate-parentheses) |
+| [0037-sudoku-solver](https://github.com/Ansh1331/DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Ansh1331/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Ansh1331/DSA/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Ansh1331/DSA/tree/master/0051-n-queens) |
@@ -80,5 +83,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Ansh1331/DSA/tree/master/0037-sudoku-solver) |
 | [0079-word-search](https://github.com/Ansh1331/DSA/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
