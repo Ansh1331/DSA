@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Ansh1331/DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Ansh1331/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Ansh1331/DSA/tree/master/0040-combination-sum-ii) |
+| [0048-rotate-image](https://github.com/Ansh1331/DSA/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/Ansh1331/DSA/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Ansh1331/DSA/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Ansh1331/DSA/tree/master/0079-word-search) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Ansh1331/DSA/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Ansh1331/DSA/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Ansh1331/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Ansh1331/DSA/tree/master/0231-power-of-two) |
@@ -90,5 +92,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Ansh1331/DSA/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/Ansh1331/DSA/tree/master/0048-rotate-image) |
 | [0079-word-search](https://github.com/Ansh1331/DSA/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
