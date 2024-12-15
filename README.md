@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Ansh1331/DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Ansh1331/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Ansh1331/DSA/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/Ansh1331/DSA/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/Ansh1331/DSA/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/Ansh1331/DSA/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Ansh1331/DSA/tree/master/0078-subsets) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ansh1331/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/Ansh1331/DSA/tree/master/0042-trapping-rain-water) |
 | [0189-rotate-array](https://github.com/Ansh1331/DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Ansh1331/DSA/tree/master/0283-move-zeroes) |
 ## Math
@@ -81,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Ansh1331/DSA/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Ansh1331/DSA/tree/master/0042-trapping-rain-water) |
 | [0131-palindrome-partitioning](https://github.com/Ansh1331/DSA/tree/master/0131-palindrome-partitioning) |
 ## Backtracking
 |  |
@@ -113,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Ansh1331/DSA/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/Ansh1331/DSA/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Ansh1331/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Ansh1331/DSA/tree/master/0232-implement-queue-using-stacks) |
@@ -132,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Ansh1331/DSA/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Ansh1331/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Ansh1331/DSA/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
