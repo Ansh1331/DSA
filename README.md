@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Ansh1331/DSA/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Ansh1331/DSA/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/Ansh1331/DSA/tree/master/0943-sum-of-subarray-minimums) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ansh1331/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ansh1331/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2227-sum-of-subarray-ranges](https://github.com/Ansh1331/DSA/tree/master/2227-sum-of-subarray-ranges) |
 ## Hash Table
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ansh1331/DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ansh1331/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/Ansh1331/DSA/tree/master/0239-sliding-window-maximum) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ansh1331/DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -205,4 +208,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Ansh1331/DSA/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/Ansh1331/DSA/tree/master/0460-lfu-cache) |
+## Prefix Sum
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/Ansh1331/DSA/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
