@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Ansh1331/DSA/tree/master/0621-task-scheduler) |
 | [0735-asteroid-collision](https://github.com/Ansh1331/DSA/tree/master/0735-asteroid-collision) |
 | [0876-hand-of-straights](https://github.com/Ansh1331/DSA/tree/master/0876-hand-of-straights) |
+| [0890-lemonade-change](https://github.com/Ansh1331/DSA/tree/master/0890-lemonade-change) |
 | [0943-sum-of-subarray-minimums](https://github.com/Ansh1331/DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ansh1331/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Ansh1331/DSA/tree/master/1034-subarrays-with-k-different-integers) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Ansh1331/DSA/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Ansh1331/DSA/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/Ansh1331/DSA/tree/master/0876-hand-of-straights) |
+| [0890-lemonade-change](https://github.com/Ansh1331/DSA/tree/master/0890-lemonade-change) |
 ## Sliding Window
 |  |
 | ------- |
