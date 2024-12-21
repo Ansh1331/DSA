@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Ansh1331/DSA/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/Ansh1331/DSA/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/Ansh1331/DSA/tree/master/0055-jump-game) |
+| [0057-insert-interval](https://github.com/Ansh1331/DSA/tree/master/0057-insert-interval) |
 | [0078-subsets](https://github.com/Ansh1331/DSA/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Ansh1331/DSA/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ansh1331/DSA/tree/master/0084-largest-rectangle-in-histogram) |
