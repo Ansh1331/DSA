@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Ansh1331/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ansh1331/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2227-sum-of-subarray-ranges](https://github.com/Ansh1331/DSA/tree/master/2227-sum-of-subarray-ranges) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Ansh1331/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 ## Hash Table
 |  |
 | ------- |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Ansh1331/DSA/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Ansh1331/DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Ansh1331/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 ## Sorting
 |  |
 | ------- |
@@ -325,4 +327,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Ansh1331/DSA/tree/master/0347-top-k-frequent-elements) |
+## Brainteaser
+|  |
+| ------- |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Ansh1331/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 <!---LeetCode Topics End-->
