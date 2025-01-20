@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ansh1331/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2227-sum-of-subarray-ranges](https://github.com/Ansh1331/DSA/tree/master/2227-sum-of-subarray-ranges) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Ansh1331/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2685-first-completely-painted-row-or-column](https://github.com/Ansh1331/DSA/tree/master/2685-first-completely-painted-row-or-column) |
 | [2792-neighboring-bitwise-xor](https://github.com/Ansh1331/DSA/tree/master/2792-neighboring-bitwise-xor) |
 ## Hash Table
 |  |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/Ansh1331/DSA/tree/master/1256-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ansh1331/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ansh1331/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2685-first-completely-painted-row-or-column](https://github.com/Ansh1331/DSA/tree/master/2685-first-completely-painted-row-or-column) |
 ## Two Pointers
 |  |
 | ------- |
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Ansh1331/DSA/tree/master/0085-maximal-rectangle) |
 | [0407-trapping-rain-water-ii](https://github.com/Ansh1331/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Ansh1331/DSA/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2685-first-completely-painted-row-or-column](https://github.com/Ansh1331/DSA/tree/master/2685-first-completely-painted-row-or-column) |
 ## Enumeration
 |  |
 | ------- |
