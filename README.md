@@ -418,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/Ansh1331/DSA/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Ansh1331/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Ansh1331/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Ansh1331/DSA/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -438,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/Ansh1331/DSA/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Ansh1331/DSA/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Ansh1331/DSA/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Shortest Path
 |  |
 | ------- |
@@ -446,4 +448,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/Ansh1331/DSA/tree/master/0820-find-eventual-safe-states) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Ansh1331/DSA/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 <!---LeetCode Topics End-->
