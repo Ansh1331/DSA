@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2685-first-completely-painted-row-or-column](https://github.com/Ansh1331/DSA/tree/master/2685-first-completely-painted-row-or-column) |
 | [2792-neighboring-bitwise-xor](https://github.com/Ansh1331/DSA/tree/master/2792-neighboring-bitwise-xor) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Ansh1331/DSA/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Ansh1331/DSA/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Hash Table
 |  |
 | ------- |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ansh1331/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Ansh1331/DSA/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Ansh1331/DSA/tree/master/2685-first-completely-painted-row-or-column) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Ansh1331/DSA/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Two Pointers
 |  |
 | ------- |
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/Ansh1331/DSA/tree/master/0735-asteroid-collision) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Ansh1331/DSA/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Greedy
 |  |
 | ------- |
