@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ansh1331/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1073-number-of-enclaves](https://github.com/Ansh1331/DSA/tree/master/1073-number-of-enclaves) |
 | [1256-rank-transform-of-an-array](https://github.com/Ansh1331/DSA/tree/master/1256-rank-transform-of-an-array) |
+| [1293-three-consecutive-odds](https://github.com/Ansh1331/DSA/tree/master/1293-three-consecutive-odds) |
 | [1364-tuple-with-same-product](https://github.com/Ansh1331/DSA/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ansh1331/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Ansh1331/DSA/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
