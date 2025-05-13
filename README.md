@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Ansh1331/DSA/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/Ansh1331/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ansh1331/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/Ansh1331/DSA/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/Ansh1331/DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Ansh1331/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Ansh1331/DSA/tree/master/0040-combination-sum-ii) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Ansh1331/DSA/tree/master/0035-search-insert-position) |
 | [0222-count-complete-tree-nodes](https://github.com/Ansh1331/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ansh1331/DSA/tree/master/1046-max-consecutive-ones-iii) |
