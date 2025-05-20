@@ -1,32 +1,42 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& arr) {
-        int n=arr.size();
+    vector<int> nextsmallestindex(vector<int>arr,int n){
+        vector<int> res(n,0);
         stack<int> st;
-        int maxarea=0;
-        int nse=-1;
-        int pse=-1;
-
-        for(int i=0;i<n;i++){
-            while(!st.empty() && arr[st.top()]>arr[i]){
-                int el=arr[st.top()];
+        for(int i=n-1;i>=0;i--){
+            while(!st.empty() && arr[st.top()]>=arr[i]){
                 st.pop();
-                nse=i;
-                pse=st.empty() ? -1:st.top();
-
-                maxarea=max(maxarea, el*(nse-pse-1));
             }
+            res[i]=st.empty() ? n:st.top();
             st.push(i);
         }
+        return res;
+    }
 
-        while(!st.empty()){
-            int el=arr[st.top()];
-            st.pop();
-            nse=n;
-            pse=st.empty() ? -1:st.top();
-            maxarea=max(maxarea, el*(nse-pse-1));
+    vector<int> previoussmallelt(vector<int> arr,int n){
+        vector<int> res(n,0);
+        stack<int> st;
+        for(int i=0;i<n;i++){
+            while(!st.empty() && arr[i]<arr[st.top()]){
+                st.pop();
+            }
+            res[i]=st.empty()? -1:st.top();
+            st.push(i);
         }
+        return res;
+    }
+    
+    int largestRectangleArea(vector<int>& arr) {
+        int n=arr.size();
+        int maxi=0;
+        vector<int> nse(n);
+        vector<int> pse(n);
+        nse= nextsmallestindex(arr,n);
+        pse= previoussmallelt(arr,n);
 
-        return maxarea;
+        for(int i=0;i<n;i++){
+            maxi=max(maxi,arr[i]*(nse[i]-pse[i]-1));
+        }
+        return maxi;
     }
 };
