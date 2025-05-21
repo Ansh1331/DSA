@@ -1,14 +1,13 @@
 class Solution {
 public:
-    int leastInterval(vector<char>& tasks, int n) {
+    int leastInterval(vector<char>& arr, int n) {
+        // int n=arr.size();
+        priority_queue<int> pq;
         vector<int> mpp(26,0);
-        priority_queue<int> pq; //max-heap by default
-        int time=0;
-        
-        for(int i=0;i<tasks.size();i++){
-            mpp[tasks[i]-'A']++;
+        for(int i=0;i<arr.size();i++){
+            mpp[arr[i]-'A']++;
         }
-
+        int res=0;
 
         for(int i=0;i<26;i++){
             if(mpp[i]>0){
@@ -16,10 +15,10 @@ public:
             }
         }
 
-
+        int time=0;
         while(!pq.empty()){
             vector<int>temp;
-            for(int i=1;i<=n+1;i++){
+            for(int i=0;i<=n;i++){
                 if(!pq.empty()){
                     int freq=pq.top();
                     pq.pop();
@@ -27,15 +26,13 @@ public:
                     temp.push_back(freq);
                 }
             }
-
             for(int i=0;i<temp.size();i++){
                 if(temp[i]>0){
                     pq.push(temp[i]);
                 }
             }
-
             if(pq.empty()){
-                time+= temp.size();
+                time+=temp.size();
             }
             else{
                 time+=n+1;
