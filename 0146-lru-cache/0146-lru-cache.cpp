@@ -1,73 +1,70 @@
+class Node{
+    public:     
+        int key;
+        int val;
+        Node* next;
+        Node* prev;
+        Node(int _key,int _val){
+            key=_key;
+            val=_val;
+        }
+};
 class LRUCache {
 public:
-    public:
-        class node {
-            public:
-                int key;
-                int val;
-                node * next;
-                node * prev;
-                node(int _key, int _val) {
-                    key = _key;
-                    val = _val;
-                }
-        };
-
-    node * head = new node(-1, -1);
-    node * tail = new node(-1, -1);
-
+    Node* head=new Node(-1,-1);
+    Node* tail=new Node(-1,-1);
     int cap;
-    unordered_map <int,node * > m;
-
+    unordered_map<int,Node*> mpp;
 
     LRUCache(int capacity) {
-        cap=capacity;
         head->next=tail;
         tail->prev=head;
+        cap=capacity;
     }
 
-    void addnode(node* newnode){
-        newnode->next=head->next;
-        newnode->prev=head;
-        head->next=newnode;
-        newnode->next->prev=newnode;
+    void addnode(Node* node){
+         node->next = head->next;
+    node->prev = head;
+    head->next->prev = node;
+    head->next = node;
     }
 
-    void deletenode(node* newnode){
-        newnode->next->prev=newnode->prev;
-        newnode->prev->next=newnode->next;
+    void deletenode(Node* node){
+        node->prev->next=node->next;
+        node->next->prev=node->prev;
+        //delete(node);
     }
     
     int get(int key) {
-        if(m.find(key) != m.end()){
-            node* resnode=m[key];
-            int res=resnode->val;
-            deletenode(resnode);
-            addnode(resnode);
-            return res;
+        if(mpp.find(key) != mpp.end()){
+            Node* node= mpp[key];
+            int val=node->val;
+            deletenode(node);
+            addnode(node);
+            return val;
         }
         return -1;
     }
     
     void put(int key, int value) {
-        if (m.find(key) != m.end()) {
-            node* modifynode = m[key];
-            modifynode->val = value;
-            deletenode(modifynode); // Correct order
-            addnode(modifynode);    // Correct order
-            return;                // No need to reassign m[key]
+        if(mpp.find(key) != mpp.end()){
+            Node* node= mpp[key];
+            node->val=value;
+            deletenode(node);
+            addnode(node);
+            return;
         }
 
-        if (m.size() == cap) {
-            m.erase(tail->prev->key);  // Remove LRU from the map
-            deletenode(tail->prev);    // Remove LRU from the list
+        if(mpp.size()==cap){
+            Node* lru=tail->prev;
+            mpp.erase(lru->key);
+            deletenode(lru);
+            delete(lru);
         }
-
-        node* newnode = new node(key, value); // Create new node
-        addnode(newnode);                     // Add it to the front
-        m[key] = newnode;                     // Update map with new node
-}
-
+        Node* newnode=new Node(key,value);
+        addnode(newnode);
+        mpp[key]=newnode;
+    }
 };
 
 /**
