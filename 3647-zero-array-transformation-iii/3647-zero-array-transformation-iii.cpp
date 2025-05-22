@@ -1,25 +1,38 @@
 class Solution {
 public:
     int maxRemoval(vector<int>& nums, vector<vector<int>>& queries) {
+        int n = nums.size();
+        int sz = queries.size();
         sort(queries.begin(), queries.end());
-        priority_queue<int> available;
-        priority_queue<int, vector<int>, greater<int>> assigned;
-        int count = 0;
+        vector<int> dif(n + 1);
+        int sum = 0;
+        int j = 0;
+        priority_queue<int> pq;
+        int cnt = 0;
 
-        for (int time = 0, k = 0; time < nums.size(); time++) {
-            while (!assigned.empty() && assigned.top() < time)
-                assigned.pop();
-            while (k < queries.size() && queries[k][0] <= time) 
-                available.push(queries[k++][1]);
-            while (assigned.size() < nums[time] && 
-                  !available.empty() && available.top() >= time) {
-                assigned.push(available.top());
-                available.pop();
-                count++;
+        for (int i = 0; i < n; i++) {
+            while (j < sz && queries[j][0] <= i) {
+                pq.push(queries[j][1]);
+                j++;
             }
-            if (assigned.size() < nums[time])
-                return -1;
+
+            while (sum + dif[i] < nums[i]) {
+                if (pq.empty()) {
+                    return -1;
+                }
+
+                int a = pq.top();
+                pq.pop();
+                if (a >= i) {
+                    dif[i]++;
+                    dif[a + 1]--;
+                    cnt++;
+                }
+            }
+
+            sum += dif[i];
         }
-        return queries.size() - count;
+
+        return sz-cnt;
     }
 };
