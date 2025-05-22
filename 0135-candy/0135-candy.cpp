@@ -1,35 +1,30 @@
 class Solution {
 public:
     int candy(vector<int>& arr) {
-        int sum=1;
-        int n=arr.size();
-        int i=1;
+        int n = arr.size();
+        vector<int> left(n, 1);
+        vector<int> right(n, 1);
 
-        while(i<n){
-            if(arr[i]==arr[i-1]){
-                sum++;
-                i++;
-                continue;
-            }
-
-            int peak=1;
-            while(i<n && arr[i]>arr[i-1]){
-                peak++;
-                sum+= peak;
-                i++;
-            }
-
-            int down=1;
-            while(i<n && arr[i]<arr[i-1]){
-                sum+=down;
-                down++;
-                i++;
-            }
-
-            if(down>peak){
-                sum+= down-peak;
+        // Left to right pass
+        for (int i = 1; i < n; i++) {
+            if (arr[i] > arr[i - 1]) {
+                left[i] = left[i - 1] + 1;
             }
         }
-    return sum;
+
+        // Right to left pass
+        for (int i = n - 2; i >= 0; i--) {
+            if (arr[i] > arr[i + 1]) {
+                right[i] = right[i + 1] + 1;
+            }
+        }
+
+        // Calculate total candies
+        int total = 0;
+        for (int i = 0; i < n; i++) {
+            total += max(left[i], right[i]);
+        }
+
+        return total;
     }
 };
