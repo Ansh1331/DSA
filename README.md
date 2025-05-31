@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Ansh1331/DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Ansh1331/DSA/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/Ansh1331/DSA/tree/master/0057-insert-interval) |
+| [0063-unique-paths-ii](https://github.com/Ansh1331/DSA/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Ansh1331/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Ansh1331/DSA/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Ansh1331/DSA/tree/master/0079-word-search) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Ansh1331/DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Ansh1331/DSA/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Ansh1331/DSA/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/Ansh1331/DSA/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/Ansh1331/DSA/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Ansh1331/DSA/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ansh1331/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -283,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/Ansh1331/DSA/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/Ansh1331/DSA/tree/master/0048-rotate-image) |
+| [0063-unique-paths-ii](https://github.com/Ansh1331/DSA/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Ansh1331/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/Ansh1331/DSA/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/Ansh1331/DSA/tree/master/0085-maximal-rectangle) |
