@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/Ansh1331/DSA/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/Ansh1331/DSA/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Ansh1331/DSA/tree/master/0189-rotate-array) |
+| [0198-house-robber](https://github.com/Ansh1331/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Ansh1331/DSA/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Ansh1331/DSA/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ansh1331/DSA/tree/master/0215-kth-largest-element-in-an-array) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ansh1331/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ansh1331/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/Ansh1331/DSA/tree/master/0131-palindrome-partitioning) |
+| [0198-house-robber](https://github.com/Ansh1331/DSA/tree/master/0198-house-robber) |
 | [0435-non-overlapping-intervals](https://github.com/Ansh1331/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/Ansh1331/DSA/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/Ansh1331/DSA/tree/master/0678-valid-parenthesis-string) |
