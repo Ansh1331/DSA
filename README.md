@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Ansh1331/DSA/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/Ansh1331/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0407-trapping-rain-water-ii](https://github.com/Ansh1331/DSA/tree/master/0407-trapping-rain-water-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/Ansh1331/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Ansh1331/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Ansh1331/DSA/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/Ansh1331/DSA/tree/master/0496-next-greater-element-i) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Ansh1331/DSA/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/Ansh1331/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Ansh1331/DSA/tree/master/0213-house-robber-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/Ansh1331/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Ansh1331/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/Ansh1331/DSA/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/Ansh1331/DSA/tree/master/0678-valid-parenthesis-string) |
