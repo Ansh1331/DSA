@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Ansh1331/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Ansh1331/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2551-apply-operations-to-an-array](https://github.com/Ansh1331/DSA/tree/master/2551-apply-operations-to-an-array) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Ansh1331/DSA/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Math
 |  |
 | ------- |
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Ansh1331/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3194-find-words-containing-character](https://github.com/Ansh1331/DSA/tree/master/3194-find-words-containing-character) |
 | [3447-clear-digits](https://github.com/Ansh1331/DSA/tree/master/3447-clear-digits) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Ansh1331/DSA/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -331,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Ansh1331/DSA/tree/master/0204-count-primes) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Ansh1331/DSA/tree/master/2215-finding-3-digit-even-numbers) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Ansh1331/DSA/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Number Theory
 |  |
 | ------- |
