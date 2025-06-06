@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/Ansh1331/DSA/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Ansh1331/DSA/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/Ansh1331/DSA/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/Ansh1331/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Ansh1331/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ansh1331/DSA/tree/master/0424-longest-repeating-character-replacement) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/Ansh1331/DSA/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Ansh1331/DSA/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/Ansh1331/DSA/tree/master/0131-palindrome-partitioning) |
+| [0208-implement-trie-prefix-tree](https://github.com/Ansh1331/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0282-expression-add-operators](https://github.com/Ansh1331/DSA/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Ansh1331/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/Ansh1331/DSA/tree/master/0402-remove-k-digits) |
@@ -401,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Ansh1331/DSA/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Ansh1331/DSA/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Ansh1331/DSA/tree/master/0173-binary-search-tree-iterator) |
+| [0208-implement-trie-prefix-tree](https://github.com/Ansh1331/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0225-implement-stack-using-queues](https://github.com/Ansh1331/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Ansh1331/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/Ansh1331/DSA/tree/master/0295-find-median-from-data-stream) |
@@ -802,4 +805,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Ansh1331/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Ansh1331/DSA/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
