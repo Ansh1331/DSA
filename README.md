@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/Ansh1331/DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Ansh1331/DSA/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Ansh1331/DSA/tree/master/2685-first-completely-painted-row-or-column) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ansh1331/DSA/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2792-neighboring-bitwise-xor](https://github.com/Ansh1331/DSA/tree/master/2792-neighboring-bitwise-xor) |
 | [3194-find-words-containing-character](https://github.com/Ansh1331/DSA/tree/master/3194-find-words-containing-character) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Ansh1331/DSA/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Ansh1331/DSA/tree/master/0794-swim-in-rising-water) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ansh1331/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1753-path-with-minimum-effort](https://github.com/Ansh1331/DSA/tree/master/1753-path-with-minimum-effort) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ansh1331/DSA/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -471,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/Ansh1331/DSA/tree/master/0890-lemonade-change) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Ansh1331/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Ansh1331/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ansh1331/DSA/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ansh1331/DSA/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3647-zero-array-transformation-iii](https://github.com/Ansh1331/DSA/tree/master/3647-zero-array-transformation-iii) |
 ## Sliding Window
