@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/Ansh1331/DSA/tree/master/0282-expression-add-operators) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ansh1331/DSA/tree/master/1370-count-number-of-nice-subarrays) |
+| [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Ansh1331/DSA/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Ansh1331/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2050-count-good-numbers](https://github.com/Ansh1331/DSA/tree/master/2050-count-good-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/Ansh1331/DSA/tree/master/2448-count-number-of-bad-pairs) |
@@ -472,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Ansh1331/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0876-hand-of-straights](https://github.com/Ansh1331/DSA/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Ansh1331/DSA/tree/master/0890-lemonade-change) |
+| [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Ansh1331/DSA/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Ansh1331/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Ansh1331/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Ansh1331/DSA/tree/master/2704-maximum-difference-by-remapping-a-digit) |
