@@ -292,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Ansh1331/DSA/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Ansh1331/DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ansh1331/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Ansh1331/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Ansh1331/DSA/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Ansh1331/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Ansh1331/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -429,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0937-online-stock-span](https://github.com/Ansh1331/DSA/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/Ansh1331/DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ansh1331/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Ansh1331/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Ansh1331/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2227-sum-of-subarray-ranges](https://github.com/Ansh1331/DSA/tree/master/2227-sum-of-subarray-ranges) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Ansh1331/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
