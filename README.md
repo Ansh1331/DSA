@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/Ansh1331/DSA/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/Ansh1331/DSA/tree/master/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/Ansh1331/DSA/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Ansh1331/DSA/tree/master/0231-power-of-two) |
 | [2050-count-good-numbers](https://github.com/Ansh1331/DSA/tree/master/2050-count-good-numbers) |
 ## Binary Search
@@ -560,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Ansh1331/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ansh1331/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0146-lru-cache](https://github.com/Ansh1331/DSA/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/Ansh1331/DSA/tree/master/0206-reverse-linked-list) |
 | [0460-lfu-cache](https://github.com/Ansh1331/DSA/tree/master/0460-lfu-cache) |
 ## Doubly-Linked List
 |  |
