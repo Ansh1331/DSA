@@ -1,42 +1,33 @@
 class Solution {
 public:
-    vector<int> nextsmallestindex(vector<int>arr,int n){
-        vector<int> res(n,0);
-        stack<int> st;
-        for(int i=n-1;i>=0;i--){
-            while(!st.empty() && arr[st.top()]>=arr[i]){
-                st.pop();
-            }
-            res[i]=st.empty() ? n:st.top();
-            st.push(i);
-        }
-        return res;
-    }
-
-    vector<int> previoussmallelt(vector<int> arr,int n){
-        vector<int> res(n,0);
-        stack<int> st;
-        for(int i=0;i<n;i++){
-            while(!st.empty() && arr[i]<arr[st.top()]){
-                st.pop();
-            }
-            res[i]=st.empty()? -1:st.top();
-            st.push(i);
-        }
-        return res;
-    }
-    
     int largestRectangleArea(vector<int>& arr) {
+        stack<int> st;
+        int res=INT_MIN;
+        int nse=-1,pse=-1;
         int n=arr.size();
-        int maxi=0;
-        vector<int> nse(n);
-        vector<int> pse(n);
-        nse= nextsmallestindex(arr,n);
-        pse= previoussmallelt(arr,n);
 
-        for(int i=0;i<n;i++){
-            maxi=max(maxi,arr[i]*(nse[i]-pse[i]-1));
+        for(int i=0;i<arr.size();i++){
+            while(!st.empty() && arr[i] < arr[st.top()]){
+                int index=st.top();
+                st.pop();
+                int el=arr[index];
+                nse=i;
+                pse=st.empty() ? -1:st.top();
+
+                res=max(res, el*(nse-pse-1));
+            }
+            st.push(i);
         }
-        return maxi;
+
+        while(!st.empty()){
+            int index=st.top();
+                st.pop();
+                int el=arr[index];
+                nse=n;
+                pse=st.empty() ? -1:st.top();
+
+                res=max(res, el*(nse-pse-1));
+        }
+        return res;
     }
 };
