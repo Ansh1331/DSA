@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Ansh1331/DSA/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Ansh1331/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1559-cherry-pickup-ii](https://github.com/Ansh1331/DSA/tree/master/1559-cherry-pickup-ii) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Ansh1331/DSA/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Ansh1331/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Ansh1331/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1753-path-with-minimum-effort](https://github.com/Ansh1331/DSA/tree/master/1753-path-with-minimum-effort) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Ansh1331/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Ansh1331/DSA/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Ansh1331/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Ansh1331/DSA/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Ansh1331/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Ansh1331/DSA/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2551-apply-operations-to-an-array](https://github.com/Ansh1331/DSA/tree/master/2551-apply-operations-to-an-array) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Ansh1331/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0794-swim-in-rising-water](https://github.com/Ansh1331/DSA/tree/master/0794-swim-in-rising-water) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ansh1331/DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Ansh1331/DSA/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1753-path-with-minimum-effort](https://github.com/Ansh1331/DSA/tree/master/1753-path-with-minimum-effort) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ansh1331/DSA/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Bit Manipulation
@@ -260,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/Ansh1331/DSA/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Ansh1331/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1256-rank-transform-of-an-array](https://github.com/Ansh1331/DSA/tree/master/1256-rank-transform-of-an-array) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Ansh1331/DSA/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Ansh1331/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Ansh1331/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Ansh1331/DSA/tree/master/2215-finding-3-digit-even-numbers) |
