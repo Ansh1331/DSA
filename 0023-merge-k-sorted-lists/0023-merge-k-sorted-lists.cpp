@@ -8,42 +8,38 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+class Compare{
+    public:
+    bool operator()(ListNode* a,ListNode* b){
+        return a->val > b->val;
+    }
+};
+
 class Solution {
 public:
-    class compare{
-        public:
-        bool operator()(ListNode* a,ListNode*b){
-            return a->val > b->val;
-        }
-    };
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<ListNode*,vector<ListNode*>,compare> minheap;
+        ListNode* dummynode=new ListNode();
+        ListNode* temp=dummynode;
+        priority_queue< ListNode*, vector<ListNode*> ,Compare> minh;
 
         for(int i=0;i<lists.size();i++){
-           if(lists[i]!=nullptr){
-                minheap.push(lists[i]);
-           }
-        }
-        ListNode* head=NULL;
-        ListNode* tail=NULL;
+            if(lists[i]){
+            minh.push(lists[i]);
 
-        while(!minheap.empty()){
-            ListNode* temp=minheap.top();
-            minheap.pop();
-
-            if(head==nullptr){
-                head=temp;
-                tail=temp;
-            }
-            else{
-                tail->next= temp;
-                tail=temp;
-            }
-
-            if(temp->next != NULL){
-                minheap.push(temp->next);
             }
         }
-        return head;
-    }   
+
+        while(!minh.empty()){
+            ListNode* it= minh.top();
+            minh.pop();
+
+            temp->next= it;
+            temp=temp->next;
+
+            if(it->next != NULL){
+                minh.push(it->next);
+            }
+        }
+        return dummynode->next;
+    }
 };
