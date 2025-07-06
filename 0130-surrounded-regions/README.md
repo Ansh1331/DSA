@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/surrounded-regions">130. Surrounded Regions</a></h2><h3>Medium</h3><hr><p>You are given an <code>m x n</code> matrix <code>board</code> containing <strong>letters</strong> <code>&#39;X&#39;</code> and <code>&#39;O&#39;</code>, <strong>capture regions</strong> that are <strong>surrounded</strong>:</p>
+<h2><a href="https://leetcode.com/problems/surrounded-regions/">130. Surrounded Regions</a></h2><h3>Medium</h3><hr><p>You are given an <code>m x n</code> matrix <code>board</code> containing <strong>letters</strong> <code>&#39;X&#39;</code> and <code>&#39;O&#39;</code>, <strong>capture regions</strong> that are <strong>surrounded</strong>:</p>
 
 <ul>
 	<li><strong>Connect</strong>: A cell is connected to adjacent cells horizontally or vertically.</li>
