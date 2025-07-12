@@ -384,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Ansh1331/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Ansh1331/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Ansh1331/DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Ansh1331/DSA/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [3618-find-the-original-typed-string-ii](https://github.com/Ansh1331/DSA/tree/master/3618-find-the-original-typed-string-ii) |
 ## Backtracking
 |  |
@@ -900,6 +901,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Ansh1331/DSA/tree/master/0070-climbing-stairs) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Ansh1331/DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Ansh1331/DSA/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 ## Combinatorics
 |  |
 | ------- |
