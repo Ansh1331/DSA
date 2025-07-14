@@ -1,32 +1,35 @@
 class DisjointSet{
 public:
-    vector<int> parent,rank;
+    vector<int> parent, rank;
+
     DisjointSet(int n){
-        rank.resize(n+1,0);
         parent.resize(n+1);
+        rank.resize(n+1,0);
         for(int i=0;i<=n;i++){
             parent[i]=i;
         }
     }
 
     int findUParent(int node){
-        if(parent[node]==node) return node;
-        return parent[node]= findUParent(parent[node]);
-    }
-    
-    void unionByRank(int u,int v){
-        int ultimateParent_u= findUParent(u);
-        int ultimateParent_v= findUParent(v);
-        if(ultimateParent_u == ultimateParent_v) return;
-        if(rank[ultimateParent_u] < rank[ultimateParent_v]) {
-            parent[ultimateParent_u]= ultimateParent_v;
+        if(parent[node]==node){
+            return node;
         }
-        else if(rank[ultimateParent_u] > rank[ultimateParent_v]){
-            parent[ultimateParent_v]= ultimateParent_u;
+        return parent[node]=findUParent(parent[node]);
+    }
+
+    void unionByRank(int u,int v){
+        int pu= findUParent(u);
+        int pv= findUParent(v);
+        if(pu==pv) return;
+        if(rank[pu] < rank[pv]){
+            parent[pu]= pv;
+        }
+        else if(rank[pu] > rank[pv]){
+            parent[pv]= pu;
         }
         else{
-            parent[ultimateParent_v]= ultimateParent_u;
-            rank[ultimateParent_u]++;
+            parent[pu]=pv;
+            rank[pv]++;
         }
     }
 };
@@ -36,7 +39,8 @@ public:
     int makeConnected(int n, vector<vector<int>>& connections) {
         DisjointSet ds(n);
         int extra=0;
-        for(auto it:connections){
+
+        for(auto it: connections){
             int u=it[0];
             int v=it[1];
             if(ds.findUParent(u) == ds.findUParent(v)){
@@ -53,11 +57,11 @@ public:
                 components++;
             }
         }
-        int required=components-1;
-        if(extra >= required){
-            return required;
-        }
-        
+
+        int req= components-1;
+        if(extra>=req){
+            return req;
+        }        
         return -1;
     }
-}; 
+};
