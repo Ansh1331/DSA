@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/Ansh1331/DSA/tree/master/0282-expression-add-operators) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ansh1331/DSA/tree/master/1370-count-number-of-nice-subarrays) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Ansh1331/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Ansh1331/DSA/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Ansh1331/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2050-count-good-numbers](https://github.com/Ansh1331/DSA/tree/master/2050-count-good-numbers) |
@@ -613,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Ansh1331/DSA/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/Ansh1331/DSA/tree/master/0206-reverse-linked-list) |
 | [0460-lfu-cache](https://github.com/Ansh1331/DSA/tree/master/0460-lfu-cache) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Ansh1331/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Doubly-Linked List
 |  |
 | ------- |
