@@ -1,25 +1,34 @@
 class Solution {
 public:
-    int helper(vector<vector<int>>& grid,int n,int m,vector<vector<int>> &dp){
-        if(n==0 && m==0){
-            if(grid[0][0] == 0) return 1;
-            else return 0;
-        } 
-        if(n<0 || m<0 ) return 0;
-        if(grid[n][m] == 1) return 0;
-        if(dp[n][m] != -1) return dp[n][m];
+    int helper(int m,int n,vector<vector<int>> & dp,vector<vector<int>>& arr){
+        if(m==0 && n==0){
+            if(arr[0][0]==1) return 0;
+            return 1;
+        }
+    
+        if(arr[m][n]==1) return 0;
+        if(m<0 || n<0) return 0;
+        if(dp[m][n]!=-1) return dp[m][n];
 
-        int up= helper(grid,n-1,m,dp);
-        int left= helper(grid,n,m-1,dp);
+        //up
+        int up=0;
+        if(m>0){
+            up=helper(m-1,n,dp,arr);
+        }
 
-        return dp[n][m]= up+left;
+        //left
+        int left=0;
+        if(n>0){
+            left=helper(m,n-1,dp,arr);
+        }
+
+        return dp[m][n]= up+left;
     }
 
-    int uniquePathsWithObstacles(vector<vector<int>>& grid) {
-        int n=grid.size();
-        int m=grid[0].size();
-        //if(n==1 && m==1 && ) return 0;
-        vector<vector<int>> dp(n,vector<int> (m,-1));
-        return helper(grid,n-1,m-1,dp);
+    int uniquePathsWithObstacles(vector<vector<int>>& arr) {
+        int m=arr.size();
+        int n=arr[0].size();
+        vector<vector<int>> dp(m,vector<int>(n,-1));
+        return helper(m-1,n-1,dp,arr);
     }
 };
