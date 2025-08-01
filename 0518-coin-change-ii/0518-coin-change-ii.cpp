@@ -1,23 +1,27 @@
 class Solution {
 public:
-    int helper(int index,vector<int>& coins,int amount,vector<vector<int>>& dp){
-      //  if(amount==0) return 0;
-        if(index==0) {
-            //if(coins[0] > amount) return 0;
-            return (amount % coins[0] == 0) ? 1:0;
+    int helper(int index, int amount, vector<vector<int>>& dp, vector<int>& arr){
+       if (index == 0) {
+    return (amount % arr[0] == 0) ? 1 : 0;
+}
+
+        // if(arr[index] > amount) return 0;
+
+        if(dp[index][amount]!=-1) return dp[index][amount];
+
+        int nottake= helper(index-1,amount,dp,arr);
+        int take=0;
+        if(arr[index] <= amount){
+            take= helper(index,amount-arr[index],dp,arr);
         }
 
-        if(dp[index][amount] != -1) return dp[index][amount];
-        int nottake= helper(index-1,coins,amount,dp);
-        int take=0;
-        if(coins[index] <= amount) take=helper(index,coins,amount-coins[index],dp);
-
-        return dp[index][amount]= nottake + take;
+        return dp[index][amount]= take + nottake;
     }
 
-    int change(int amount, vector<int>& coins) {
-        int n=coins.size();
+
+    int change(int amount, vector<int>& arr) {
+        int n=arr.size();
         vector<vector<int>> dp(n,vector<int>(amount+1,-1));
-        return helper(n-1,coins,amount,dp);
+        return helper(n-1,amount,dp,arr);
     }
 };
