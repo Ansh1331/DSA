@@ -1,23 +1,28 @@
 class Solution {
 public:
-    int helper(int i, int buy,int cap, vector<int>&prices, vector<vector<vector<int>>>& dp){
-        if(i==prices.size()) return 0;
+    int helper(int index, int buy,int cap, vector<int>& arr, vector<vector<vector<int>>>& dp){
+        if(index==arr.size()) return 0;
         if(cap==0) return 0;
 
-        if(dp[i][buy][cap] != -1) return dp[i][buy][cap];
+        if(dp[index][buy][cap] != -1 ) return dp[index][buy][cap];
+
         if(buy){
-            dp[i][buy][cap]= max( -prices[i] + helper(i+1,0,cap,prices,dp) , //bought
-                        helper(i+1,1,cap,prices,dp));            //not bought
+            if(cap>0){
+                dp[index][buy][cap] =max(-arr[index] + helper(index+1,0,cap,arr,dp), 
+                                helper(index+1, buy,cap,arr,dp));
+            }
         }
         else{
-            dp[i][buy][cap]= max( +prices[i] + helper(i+1,1,cap-1,prices,dp), //sold
-                        helper(i+1,0,cap,prices,dp));             //not sold
+            dp[index][buy][cap] = max(arr[index] + helper(index+1,1,cap-1,arr,dp), 
+                                helper(index+1,0,cap,arr,dp));
         }
-        return dp[i][buy][cap];
+
+        return dp[index][buy][cap];
     }
-    int maxProfit(vector<int>& prices) {
-        int n=prices.size();
-        vector<vector<vector<int>>> dp (n, vector<vector<int>>(2,vector<int> (3,-1)));
-        return helper(0,1,2,prices,dp);
+    int maxProfit(vector<int>& arr) {
+        int n=arr.size();
+        vector<vector<vector<int>>> dp(n+1,vector<vector<int>>(2,vector<int>(3,-1)));
+        // vector<vector<int>> dp(n+1,vector<int>(2,-1));
+        return helper(0,1,2,arr,dp); //1 -> buy
     }
 };
