@@ -1,27 +1,27 @@
 class Solution {
 public:
     int totalFruit(vector<int>& arr) {
-        map<int,int> mpp; //type,freq
-        int l=0;
-        int r=0;
+        int res=0;
+        int l=0,r=0;
         int n=arr.size();
-        int count=0;
+        map<int,int>mpp;
 
         while(r<n){
-            mpp[arr[r]]++;
-            
-            while(mpp.size()>2){
-                mpp[arr[l]]--;
-                if(mpp[arr[l]]==0){
-                    mpp.erase(arr[l]);
-                }
-                l++;
+            if(mpp.find(arr[r]) != mpp.end()){
+                mpp[arr[r]]++;
+                r++;
             }
-
-            int len=r-l+1;
-            count=max(count,len);
-            r++;
+            else{
+                while(mpp.size()>=2){
+                    mpp[arr[l]]--;
+                    if(mpp[arr[l]] == 0) mpp.erase(arr[l]);
+                    l++;
+                }
+                mpp[arr[r]]++;
+                r++;
+            }
+            res=max(res,r-l);
         }
-        return count;
+        return res;
     }
 };
