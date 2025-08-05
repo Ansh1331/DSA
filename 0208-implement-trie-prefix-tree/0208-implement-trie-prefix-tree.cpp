@@ -1,13 +1,13 @@
 class Node{
     Node* links[26];
-    bool flag=false;
+    bool flag;
     public:
     bool containsKey(char ch){
-        return links[ch - 'a']!=NULL;
+        return links[ch-'a']!=NULL;
     }
 
-    void put(char ch , Node* node){
-        links[ch-'a']=node;
+    void put(char ch,Node* node){
+        links[ch-'a'] = node;
     }
 
     Node* get(char ch){
@@ -17,19 +17,16 @@ class Node{
     void setEnd(){
         flag=true;
     }
-
     bool getEnd(){
         return flag==true;
     }
-
 };
 
 class Trie {
-private:
     Node* root;
 public:
     Trie() {
-        root=new Node();
+        root= new Node();
     }
     
     void insert(string word) {
@@ -37,9 +34,8 @@ public:
         for(int i=0;i<word.size();i++){
             if(!node->containsKey(word[i])){
                 node->put(word[i],new Node());
-            }   
-            //Goes to the reference
-            node=node->get(word[i]);
+            }
+            node= node->get(word[i]);
         }
         node->setEnd();
     }
@@ -50,7 +46,7 @@ public:
             if(!node->containsKey(word[i])){
                 return false;
             }
-            node=node->get(word[i]); 
+            node= node->get(word[i]);
         }
         return node->getEnd();
     }
@@ -61,7 +57,7 @@ public:
             if(!node->containsKey(word[i])){
                 return false;
             }
-            node=node->get(word[i]); 
+            node= node->get(word[i]);
         }
         return true;
     }
