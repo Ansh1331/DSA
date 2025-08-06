@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ansh1331/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/Ansh1331/DSA/tree/master/0042-trapping-rain-water) |
 | [0189-rotate-array](https://github.com/Ansh1331/DSA/tree/master/0189-rotate-array) |
+| [0234-palindrome-linked-list](https://github.com/Ansh1331/DSA/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Ansh1331/DSA/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/Ansh1331/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Ansh1331/DSA/tree/master/0455-assign-cookies) |
@@ -260,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Ansh1331/DSA/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Ansh1331/DSA/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Ansh1331/DSA/tree/master/0231-power-of-two) |
+| [0234-palindrome-linked-list](https://github.com/Ansh1331/DSA/tree/master/0234-palindrome-linked-list) |
 | [2050-count-good-numbers](https://github.com/Ansh1331/DSA/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Ansh1331/DSA/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Ansh1331/DSA/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -523,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/Ansh1331/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/Ansh1331/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Ansh1331/DSA/tree/master/0232-implement-queue-using-stacks) |
+| [0234-palindrome-linked-list](https://github.com/Ansh1331/DSA/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/Ansh1331/DSA/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Ansh1331/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Ansh1331/DSA/tree/master/0503-next-greater-element-ii) |
@@ -678,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ansh1331/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0146-lru-cache](https://github.com/Ansh1331/DSA/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/Ansh1331/DSA/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/Ansh1331/DSA/tree/master/0234-palindrome-linked-list) |
 | [0460-lfu-cache](https://github.com/Ansh1331/DSA/tree/master/0460-lfu-cache) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Ansh1331/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Doubly-Linked List
