@@ -11,18 +11,16 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        if(head==NULL || head->next==NULL) return head;
+        ListNode* temp = head;
+        ListNode* prev = nullptr;
 
-        ListNode* prev=NULL;
-        ListNode* next=NULL;
-        ListNode* temp=head;
-
-        while(temp){
-            next=temp->next;
-            temp->next=prev;
-            prev=temp;
-            temp=next;
+        while (temp) {
+            ListNode* next = temp->next;  // Save next node
+            temp->next = prev;            // Reverse the link
+            prev = temp;                  // Move prev forward
+            temp = next;                  // Move temp forward
         }
+
         return prev;
     }
 };
