@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/Ansh1331/DSA/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Ansh1331/DSA/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/Ansh1331/DSA/tree/master/0146-lru-cache) |
+| [0205-isomorphic-strings](https://github.com/Ansh1331/DSA/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Ansh1331/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Ansh1331/DSA/tree/master/0347-top-k-frequent-elements) |
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/Ansh1331/DSA/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Ansh1331/DSA/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/Ansh1331/DSA/tree/master/0131-palindrome-partitioning) |
+| [0205-isomorphic-strings](https://github.com/Ansh1331/DSA/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Ansh1331/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0282-expression-add-operators](https://github.com/Ansh1331/DSA/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Ansh1331/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
