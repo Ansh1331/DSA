@@ -11,17 +11,18 @@
  */
 class Solution {
 public:
-    int maxheight(TreeNode* root){
-        if(root==NULL) return 0;
-        int lh=maxheight(root->left);
-        int rh=maxheight(root->right);
+    bool isBalanced(TreeNode* root) {
+        return helper(root) != -1;
+    }
 
-        if(lh==-1 || rh==-1) return -1;
+    int helper(TreeNode* root){
+        if(root==NULL) return 0;
+
+        int lh=helper(root->left);
+        int rh=helper(root->right);
+
         if(abs(lh-rh) > 1) return -1;
+        if(lh==-1 || rh==-1) return -1;
         return 1+max(lh,rh);
     }
-    bool isBalanced(TreeNode* root) {
-        return maxheight(root) !=-1;
-    }
-
 };
