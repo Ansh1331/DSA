@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Ansh1331/DSA/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/Ansh1331/DSA/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Ansh1331/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0900-reordered-power-of-2](https://github.com/Ansh1331/DSA/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/Ansh1331/DSA/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ansh1331/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Ansh1331/DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/Ansh1331/DSA/tree/master/0282-expression-add-operators) |
 | [0368-largest-divisible-subset](https://github.com/Ansh1331/DSA/tree/master/0368-largest-divisible-subset) |
 | [0826-soup-servings](https://github.com/Ansh1331/DSA/tree/master/0826-soup-servings) |
+| [0900-reordered-power-of-2](https://github.com/Ansh1331/DSA/tree/master/0900-reordered-power-of-2) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ansh1331/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Ansh1331/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Ansh1331/DSA/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
@@ -321,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Ansh1331/DSA/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/Ansh1331/DSA/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/Ansh1331/DSA/tree/master/0876-hand-of-straights) |
+| [0900-reordered-power-of-2](https://github.com/Ansh1331/DSA/tree/master/0900-reordered-power-of-2) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Ansh1331/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Ansh1331/DSA/tree/master/1129-longest-string-chain) |
 | [1256-rank-transform-of-an-array](https://github.com/Ansh1331/DSA/tree/master/1256-rank-transform-of-an-array) |
@@ -506,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Ansh1331/DSA/tree/master/0204-count-primes) |
+| [0900-reordered-power-of-2](https://github.com/Ansh1331/DSA/tree/master/0900-reordered-power-of-2) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Ansh1331/DSA/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Ansh1331/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Ansh1331/DSA/tree/master/2202-sum-of-k-mirror-numbers) |
@@ -717,6 +721,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Ansh1331/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Ansh1331/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/Ansh1331/DSA/tree/master/0621-task-scheduler) |
+| [0900-reordered-power-of-2](https://github.com/Ansh1331/DSA/tree/master/0900-reordered-power-of-2) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Ansh1331/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1160-letter-tile-possibilities](https://github.com/Ansh1331/DSA/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/Ansh1331/DSA/tree/master/1364-tuple-with-same-product) |
