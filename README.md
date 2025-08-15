@@ -243,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/Ansh1331/DSA/tree/master/0282-expression-add-operators) |
 | [0326-power-of-three](https://github.com/Ansh1331/DSA/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/Ansh1331/DSA/tree/master/0342-power-of-four) |
 | [0368-largest-divisible-subset](https://github.com/Ansh1331/DSA/tree/master/0368-largest-divisible-subset) |
 | [0826-soup-servings](https://github.com/Ansh1331/DSA/tree/master/0826-soup-servings) |
 | [0900-reordered-power-of-2](https://github.com/Ansh1331/DSA/tree/master/0900-reordered-power-of-2) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Ansh1331/DSA/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Ansh1331/DSA/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/Ansh1331/DSA/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/Ansh1331/DSA/tree/master/0342-power-of-four) |
 | [2050-count-good-numbers](https://github.com/Ansh1331/DSA/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Ansh1331/DSA/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Ansh1331/DSA/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -300,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Ansh1331/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/Ansh1331/DSA/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
+| [0342-power-of-four](https://github.com/Ansh1331/DSA/tree/master/0342-power-of-four) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Ansh1331/DSA/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Ansh1331/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Ansh1331/DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
