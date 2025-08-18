@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Ansh1331/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1753-path-with-minimum-effort](https://github.com/Ansh1331/DSA/tree/master/1753-path-with-minimum-effort) |
 | [1813-maximum-erasure-value](https://github.com/Ansh1331/DSA/tree/master/1813-maximum-erasure-value) |
+| [1825-find-minimum-time-to-finish-all-jobs](https://github.com/Ansh1331/DSA/tree/master/1825-find-minimum-time-to-finish-all-jobs) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ansh1331/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Ansh1331/DSA/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Ansh1331/DSA/tree/master/2144-maximum-difference-between-increasing-elements) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Ansh1331/DSA/tree/master/0268-missing-number) |
 | [0342-power-of-four](https://github.com/Ansh1331/DSA/tree/master/0342-power-of-four) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Ansh1331/DSA/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1825-find-minimum-time-to-finish-all-jobs](https://github.com/Ansh1331/DSA/tree/master/1825-find-minimum-time-to-finish-all-jobs) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Ansh1331/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Ansh1331/DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/Ansh1331/DSA/tree/master/2400-minimum-score-after-removals-on-a-tree) |
@@ -461,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-cherry-pickup-ii](https://github.com/Ansh1331/DSA/tree/master/1559-cherry-pickup-ii) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Ansh1331/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Ansh1331/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1825-find-minimum-time-to-finish-all-jobs](https://github.com/Ansh1331/DSA/tree/master/1825-find-minimum-time-to-finish-all-jobs) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Ansh1331/DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Ansh1331/DSA/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Ansh1331/DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -489,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Ansh1331/DSA/tree/master/0494-target-sum) |
 | [0679-24-game](https://github.com/Ansh1331/DSA/tree/master/0679-24-game) |
 | [1160-letter-tile-possibilities](https://github.com/Ansh1331/DSA/tree/master/1160-letter-tile-possibilities) |
+| [1825-find-minimum-time-to-finish-all-jobs](https://github.com/Ansh1331/DSA/tree/master/1825-find-minimum-time-to-finish-all-jobs) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Ansh1331/DSA/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Ansh1331/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Ansh1331/DSA/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -1070,4 +1074,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0826-soup-servings](https://github.com/Ansh1331/DSA/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/Ansh1331/DSA/tree/master/0867-new-21-game) |
+## Bitmask
+|  |
+| ------- |
+| [1825-find-minimum-time-to-finish-all-jobs](https://github.com/Ansh1331/DSA/tree/master/1825-find-minimum-time-to-finish-all-jobs) |
 <!---LeetCode Topics End-->
