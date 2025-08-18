@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Ansh1331/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/Ansh1331/DSA/tree/master/0621-task-scheduler) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Ansh1331/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0679-24-game](https://github.com/Ansh1331/DSA/tree/master/0679-24-game) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Ansh1331/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/Ansh1331/DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Ansh1331/DSA/tree/master/0733-flood-fill) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0326-power-of-three](https://github.com/Ansh1331/DSA/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Ansh1331/DSA/tree/master/0342-power-of-four) |
 | [0368-largest-divisible-subset](https://github.com/Ansh1331/DSA/tree/master/0368-largest-divisible-subset) |
+| [0679-24-game](https://github.com/Ansh1331/DSA/tree/master/0679-24-game) |
 | [0826-soup-servings](https://github.com/Ansh1331/DSA/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/Ansh1331/DSA/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/Ansh1331/DSA/tree/master/0900-reordered-power-of-2) |
@@ -485,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/Ansh1331/DSA/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/Ansh1331/DSA/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/Ansh1331/DSA/tree/master/0494-target-sum) |
+| [0679-24-game](https://github.com/Ansh1331/DSA/tree/master/0679-24-game) |
 | [1160-letter-tile-possibilities](https://github.com/Ansh1331/DSA/tree/master/1160-letter-tile-possibilities) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Ansh1331/DSA/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Ansh1331/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
