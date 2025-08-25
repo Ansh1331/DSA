@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Ansh1331/DSA/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/Ansh1331/DSA/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Ansh1331/DSA/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/Ansh1331/DSA/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/Ansh1331/DSA/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Ansh1331/DSA/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Ansh1331/DSA/tree/master/0542-01-matrix) |
@@ -515,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Ansh1331/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Ansh1331/DSA/tree/master/0200-number-of-islands) |
 | [0407-trapping-rain-water-ii](https://github.com/Ansh1331/DSA/tree/master/0407-trapping-rain-water-ii) |
+| [0498-diagonal-traverse](https://github.com/Ansh1331/DSA/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/Ansh1331/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Ansh1331/DSA/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/Ansh1331/DSA/tree/master/0794-swim-in-rising-water) |
@@ -617,6 +619,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0498-diagonal-traverse](https://github.com/Ansh1331/DSA/tree/master/0498-diagonal-traverse) |
 | [0735-asteroid-collision](https://github.com/Ansh1331/DSA/tree/master/0735-asteroid-collision) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Ansh1331/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Ansh1331/DSA/tree/master/2260-divide-a-string-into-groups-of-size-k) |
