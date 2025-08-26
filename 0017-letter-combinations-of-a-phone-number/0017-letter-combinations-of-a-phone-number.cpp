@@ -1,29 +1,30 @@
 class Solution {
 public:
-    void helper(string &digits,vector<string> & ans,string temp,vector<string> &digitToChar,int index){
+    void helper(string digits,vector<string>&res,string temp,vector<string>&digToChar,int index){
         if(index== digits.size()){
-            ans.push_back(temp);
+            res.push_back(temp);
             return;
         }
 
-        int digit= digits[index]-'0';
-        string letters= digitToChar[digit];
+        int digit=digits[index]-'0';
+        string letters=digToChar[digit];
 
         for(char letter:letters){
             temp.push_back(letter);
-            helper(digits,ans,temp,digitToChar,index+1);
+            helper(digits,res,temp,digToChar,index+1);
             temp.pop_back();
         }
     }
 
     vector<string> letterCombinations(string digits) {
-        if(digits.size()==0) return {};
-        vector<string> ans;
-        string temp;
-        vector<string> digitToChar={
-            "","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"
-        };
-        helper(digits,ans,temp,digitToChar,0);
-        return ans;
+        vector<string> res;
+        string temp="";
+        if(digits.empty()) return {};
+
+        vector<string> digToChar={"", "","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+
+        helper(digits,res,temp,digToChar,0);
+        return res;
+
     }
 };
