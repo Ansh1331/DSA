@@ -1,29 +1,28 @@
 class Solution {
 public:
-    void helper(int index, int currentSum, const vector<int>& candidates, int target,
-                vector<vector<int>>& res, vector<int>& temp) {
-        if (currentSum == target) {
+    void helper(int index,int sum,vector<int>&arr,int target,vector<vector<int>>&res,vector<int>temp){
+        if(sum==target){
             res.push_back(temp);
             return;
         }
 
-        for (int i = index; i < candidates.size(); ++i) {
-            // Skip duplicates
-            if (i > index && candidates[i] == candidates[i - 1]) continue;
+        for(int i=index;i<arr.size();i++){
+            if(i>index && arr[i]==arr[i-1]) continue;
+            if(sum + arr[i] > target) return;
 
-            if (currentSum + candidates[i] > target) break;
-
-            temp.push_back(candidates[i]);
-            helper(i + 1, currentSum + candidates[i], candidates, target, res, temp);
-            temp.pop_back(); // backtrack
+            temp.push_back(arr[i]);
+            helper(i+1,sum+arr[i],arr,target,res,temp);
+            temp.pop_back();   
         }
     }
 
-    vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+    vector<vector<int>> combinationSum2(vector<int>& arr, int target) {
         vector<vector<int>> res;
+        sort(arr.begin(),arr.end());
         vector<int> temp;
-        sort(candidates.begin(), candidates.end()); // sort to handle duplicates
-        helper(0, 0, candidates, target, res, temp);
+        int sum=0;
+        int index=0;
+        helper(index,sum,arr,target,res,temp);
         return res;
     }
 };
