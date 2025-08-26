@@ -1,32 +1,29 @@
 class Solution {
 public:
-
-    void solve(int k,int target,vector<vector<int>> & res,vector<int> &currentcombination,int index,int currentsum){
-        if(currentsum==target && currentcombination.size()==k){
-            res.push_back(currentcombination);
+    void helper(vector<vector<int>>&res,vector<int>temp,int index,int sum,int target,int k){
+        if(temp.size()==k && sum==target){
+            res.push_back(temp);
             return;
         }
 
-        if(currentsum>target || currentcombination.size()>k){
+        if(temp.size()> k || sum>target){
             return;
         }
-         
-        for(int i=index;i<10;i++){  
-            //if(i> index) continue;
-            //if(currentsum+i>target) return;
 
-            currentcombination.push_back(i);
-            solve(k,target,res,currentcombination,i+1,currentsum+i);
-            currentcombination.pop_back(); 
+        for(int i=index;i<10;i++){
+            temp.push_back(i);
+            helper(res,temp,i+1,sum+i,target,k);
+            temp.pop_back();
         }
     }
 
     vector<vector<int>> combinationSum3(int k, int n) {
         vector<vector<int>> res;
-        vector<int> currentcombination;
-        int index=1;
-        int currentsum=0;
-        solve(k, n,res,currentcombination,index,currentsum);
+        //sort(arr.begin(),arr.end());
+        vector<int> temp;
+        //int n=arr.size();
+        int sum=0;
+        helper(res,temp,1,sum,n,k);
         return res;
     }
 };
