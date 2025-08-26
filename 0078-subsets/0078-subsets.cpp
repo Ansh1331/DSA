@@ -1,25 +1,25 @@
 class Solution {
 public:
-    void helper(int index,vector<int>& arr,vector<vector<int>>& res,vector<int>temp,int n){
+    void helper(vector<int>&arr, vector<vector<int>>&res,vector<int>temp,int index,int n){
         if(index==n){
             res.push_back(temp);
             return;
         }
 
         //exclude
-        helper(index+1,arr,res,temp,n);
+        helper(arr,res,temp,index+1,n);
 
         //include
         temp.push_back(arr[index]);
-        helper(index+1,arr,res,temp,n);
+        helper(arr,res,temp,index+1,n);
     }
 
-
     vector<vector<int>> subsets(vector<int>& arr) {
-        int n=arr.size();
         vector<vector<int>> res;
         vector<int> temp;
-        helper(0,arr,res,temp,n);
+        int n=arr.size();
+
+        helper(arr,res,temp,0,n);
         return res;
     }
 };
