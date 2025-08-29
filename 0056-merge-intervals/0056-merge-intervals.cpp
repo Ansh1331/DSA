@@ -2,6 +2,7 @@ class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& arr) {
         vector<vector<int>> res;
+        sort(arr.begin(),arr.end());
         res.push_back({arr[0][0],arr[0][1]});
         for(int i=1;i<arr.size();i++){
             int currStart=arr[i][0];
