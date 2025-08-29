@@ -2,14 +2,15 @@ class Solution {
 public:
     int trap(vector<int>& arr) {
         int n=arr.size();
-        int lmax,rmax,total=0;
-        int l=0;
-        int r=n-1;
+        int l=0,r=n-1;
+        int lmax=0,rmax=0;
+        int res=0;
 
-        while(l<r){
+
+        while(l<=r){
             if(arr[l] < arr[r]){
                 if(lmax>arr[l]){
-                    total+= lmax-arr[l];
+                    res+= lmax-arr[l];
                 }
                 else{
                     lmax=arr[l];
@@ -17,15 +18,15 @@ public:
                 l++;
             }
             else{
-                if(rmax> arr[r]){
-                    total+= rmax-arr[r];
+                if(rmax>arr[r]){
+                    res+=rmax-arr[r];
                 }
                 else{
                     rmax=arr[r];
                 }
                 r--;
             }
-        }
-        return total;
+        }   
+        return res;
     }
 };
