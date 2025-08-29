@@ -1,27 +1,27 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        map<char,int> mpp; // char,freq;
-        int l=0;
-        int r=0;
-        int n=s.size();
-        int maxlen=0;
+        int res=0;
         int maxfreq=0;
+        map<int,int> mpp;
+        int l=0,r=0;
 
-        while(r<n){
+        while(r<s.size()){
             mpp[s[r]]++;
-            maxfreq=max(maxfreq,mpp[s[r]]);
 
-            while(((r-l+1)-maxfreq)>k){
+            maxfreq=max(maxfreq,mpp[s[r]]);
+            int len=r-l+1;
+            if(len-maxfreq > k){
                 mpp[s[l]]--;
+                if(mpp[s[l]]==0) mpp.erase(s[l]);
                 l++;
             }
-            maxlen=max(maxlen,r-l+1);
+
+            res=max(res,r-l+1);
             r++;
         }
-        return maxlen;
-    }
 
-    // a b a b b
-    //
+        return res;
+
+    }
 };
