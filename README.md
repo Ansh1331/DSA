@@ -1108,4 +1108,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1825-find-minimum-time-to-finish-all-jobs](https://github.com/Ansh1331/DSA/tree/master/1825-find-minimum-time-to-finish-all-jobs) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/Ansh1331/DSA/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
