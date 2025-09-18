@@ -7,10 +7,8 @@ public:
         int sum=0;
         for(int i=0;i<arr.size();i++){
             sum+=arr[i];
-            int rem=abs(k-sum);
-            if(mpp.find(rem)!=mpp.end()){
-                count++;
-            }
+            int rem=sum-k;
+            count+=mpp[rem];
             mpp[sum]++;
         }
         return count;
